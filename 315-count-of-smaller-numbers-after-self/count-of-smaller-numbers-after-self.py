@@ -43,7 +43,4 @@ class Solution:
                 merged.append(right[j])
                 j += 1
                 
-            return merged
-
-        merge_sort(indices)
-        return counts
+         
