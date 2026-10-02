@@ -3,8 +3,5 @@ class Solution:
         res = []
 
         def backtrack(open_count, close_count, s):
-            if len(s) == 2 * n:
-                res.append(s)
-                return
-
+         
  
