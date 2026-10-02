@@ -33,11 +33,7 @@ class Solution:
                     merged.append(left[i])
                     i += 1
             
-            # Append remaining elements
-            while i < len(left):
-                counts[left[i][0]] += right_count
-                merged.append(left[i])
-                i += 1
+         
                 
        
          
