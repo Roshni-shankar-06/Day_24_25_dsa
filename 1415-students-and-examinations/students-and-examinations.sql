@@ -7,6 +7,3 @@ SELECT
 FROM Students
 CROSS JOIN Subjects
 LEFT JOIN Examinations
-  ON (
-    Students.student_id = Examinations.student_id
-    AND Subjects.subject_name = Examinations.subject_name)
