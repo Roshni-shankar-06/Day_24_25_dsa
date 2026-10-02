@@ -4,6 +4,4 @@ class Solution:
         prev1 = 0  # max money from 1 house ago
         
         for num in nums:
-            current = max(prev1, prev2 + num)
-            prev2 = prev1
-         
+            
