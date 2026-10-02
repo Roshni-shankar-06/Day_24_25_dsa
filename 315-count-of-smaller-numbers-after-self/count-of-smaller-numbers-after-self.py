@@ -26,12 +26,7 @@ class Solution:
                     merged.append(right[j])
                     right_count += 1
                     j += 1
-                else:
-                    # The element in the left array is smaller or equal
-                    # Add the accumulated right_count to this element's original index
-                    counts[left[i][0]] += right_count
-                    merged.append(left[i])
-                    i += 1
+               
             
          
                 
