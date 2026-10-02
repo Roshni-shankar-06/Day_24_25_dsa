@@ -9,8 +9,4 @@ class Solution {
       summ += n % 10;
     }
 
-    return prod - summ;
-  }
-};
-
 
