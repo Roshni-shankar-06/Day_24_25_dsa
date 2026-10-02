@@ -5,8 +5,5 @@ class Solution {
     int summ = 0;
 
     for (; n > 0; n /= 10) {
-      prod *= n % 10;
-      summ += n % 10;
-    }
-
+    
 
