@@ -7,5 +7,4 @@ class Solution:
                 res.append(s)
                 return
 
-            if open_count < n:
-                backtrack(open_count + 1, close_count, s + "(")
+ 
