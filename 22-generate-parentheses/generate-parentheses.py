@@ -10,5 +10,4 @@ class Solution:
             if open_count < n:
                 backtrack(open_count + 1, close_count, s + "(")
 
-            if close_count < open_count:
-                backtrack(open_count, close_count + 1, s + ")")
+       
