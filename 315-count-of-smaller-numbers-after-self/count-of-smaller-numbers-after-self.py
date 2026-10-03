@@ -29,14 +29,6 @@ class Solution:
                 else:
                     # The element in the left array is smaller or equal
                     # Add the accumulated right_count to this element's original index
-                    counts[left[i][0]] += right_count
-                    merged.append(left[i])
-                    i += 1
-            
-            # Append remaining elements
-            while i < len(left):
-                counts[left[i][0]] += right_count
-                merged.append(left[i])
-                i += 1
+           
                 
            
