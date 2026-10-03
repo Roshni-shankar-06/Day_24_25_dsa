@@ -8,7 +8,3 @@ class Solution {
       n >>= 1;
       ++shiftBits;
     }
-
-    return m << shiftBits;
-  }
-};
