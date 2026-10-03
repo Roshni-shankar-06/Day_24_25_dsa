@@ -5,7 +5,4 @@ class Solution:
     n = len(nums)
     dp = [[0] * n for _ in range(n)]
 
-    for length in range(2, n):
-      for left in range(n - length):
-        right = left + length
-    
+   
