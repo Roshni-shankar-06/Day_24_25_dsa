@@ -16,8 +16,4 @@ class Solution {
 
   private void bfs(char[][] grid, int r, int c) {
     Queue<Pair<Integer, Integer>> q = new ArrayDeque<>(List.of(new Pair<>(r, c)));
-    grid[r][c] = '2'; // Mark '2' as visited.
-    while (!q.isEmpty()) {
-      final int i = q.peek().getKey();
-      final int j = q.poll().getValue();
-    
+  
