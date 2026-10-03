@@ -22,11 +22,4 @@ class Solution {
         --toPop;
       }
       res.add(num);
-    }
-    return res.subList(0, k).stream().mapToInt(Integer::intValue).toArray();
-  }
-
-  // Merges nums1 and nums2.
-  private int[] merge(int[] nums1, int[] nums2) {
-    int[] res = new int[nums1.length + nums2.length];
  
