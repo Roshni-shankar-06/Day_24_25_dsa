@@ -29,11 +29,4 @@ class Solution {
   // Merges nums1 and nums2.
   private int[] merge(int[] nums1, int[] nums2) {
     int[] res = new int[nums1.length + nums2.length];
-    for (int i = 0, j = 0, k = 0; k < res.length; ++k)
-      res[k] = greater(nums1, i, nums2, j) ? nums1[i++] : nums2[j++];
-    return res;
-  }
-
-  // Returns true if nums1[i..n) > nums2[j..n).
-  private boolean greater(int[] nums1, int i, int[] nums2, int j) {
  
