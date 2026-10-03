@@ -12,8 +12,3 @@ class Solution {
     return ans;
   }
 
-  private static final int[][] DIRS = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-
-  private void bfs(char[][] grid, int r, int c) {
-    Queue<Pair<Integer, Integer>> q = new ArrayDeque<>(List.of(new Pair<>(r, c)));
-  
