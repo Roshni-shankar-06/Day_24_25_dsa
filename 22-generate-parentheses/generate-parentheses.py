@@ -12,6 +12,3 @@ class Solution:
 
             if close_count < open_count:
                 backtrack(open_count, close_count + 1, s + ")")
-
-        backtrack(0, 0, "")
-        return res
