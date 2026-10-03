@@ -39,11 +39,4 @@ class Solution:
                 merged.append(left[i])
                 i += 1
                 
-            while j < len(right):
-                merged.append(right[j])
-                j += 1
-                
-            return merged
-
-        merge_sort(indices)
-        return counts
+           
