@@ -36,10 +36,4 @@ class Solution {
 
   // Returns true if nums1[i..n) > nums2[j..n).
   private boolean greater(int[] nums1, int i, int[] nums2, int j) {
-    while (i < nums1.length && j < nums2.length && nums1[i] == nums2[j]) {
-      ++i;
-      ++j;
-    }
-    return j == nums2.length || (i < nums1.length && nums1[i] > nums2[j]);
-  }
-}
+ 
