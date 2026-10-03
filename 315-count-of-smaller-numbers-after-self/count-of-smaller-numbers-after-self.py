@@ -21,14 +21,4 @@ class Solution:
             right_count = 0  # Tracks how many elements from the right array have been jumped
             
             while i < len(left) and j < len(right):
-                # If the element in the right array is smaller
-                if right[j][1] < left[i][1]:
-                    merged.append(right[j])
-                    right_count += 1
-                    j += 1
-                else:
-                    # The element in the left array is smaller or equal
-                    # Add the accumulated right_count to this element's original index
-           
-                
-           
+              
