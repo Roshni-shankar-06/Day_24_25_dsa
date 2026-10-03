@@ -20,9 +20,4 @@ class Solution {
     while (!q.isEmpty()) {
       final int i = q.peek().getKey();
       final int j = q.poll().getValue();
-      for (int[] dir : DIRS) {
-        final int x = i + dir[0];
-        final int y = j + dir[1];
-        if (x < 0 || x == grid.length || y < 0 || y == grid[0].length)
-          continue;
-      
+    
