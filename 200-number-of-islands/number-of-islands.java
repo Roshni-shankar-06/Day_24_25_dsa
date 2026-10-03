@@ -25,11 +25,4 @@ class Solution {
         final int y = j + dir[1];
         if (x < 0 || x == grid.length || y < 0 || y == grid[0].length)
           continue;
-        if (grid[x][y] != '1')
-          continue;
-        q.offer(new Pair<>(x, y));
-        grid[x][y] = '2'; // Mark '2' as visited.
-      }
-    }
-  }
-}
+      
