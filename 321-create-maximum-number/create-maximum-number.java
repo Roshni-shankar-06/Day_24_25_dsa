@@ -10,10 +10,4 @@ class Solution {
       if (greater(candidate, 0, ans, 0))
         ans = candidate;
     }
-    return ans;
-  }
-
-  private int[] maxArray(int[] nums, int k) {
-    List<Integer> res = new ArrayList<>();
-    int toPop = nums.length - k;
-  
+   
