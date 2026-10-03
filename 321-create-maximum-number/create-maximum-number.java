@@ -16,10 +16,4 @@ class Solution {
   private int[] maxArray(int[] nums, int k) {
     List<Integer> res = new ArrayList<>();
     int toPop = nums.length - k;
-    for (final int num : nums) {
-      while (!res.isEmpty() && res.get(res.size() - 1) < num && toPop > 0) {
-        res.remove(res.size() - 1);
-        --toPop;
-      }
-      res.add(num);
- 
+  
